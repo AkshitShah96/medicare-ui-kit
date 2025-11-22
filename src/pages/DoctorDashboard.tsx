@@ -127,21 +127,6 @@ const DoctorDashboard = () => {
                 </Button>
               </CardContent>
             </Card>
-
-            <Card className="mt-6">
-              <CardHeader>
-                <CardTitle className="text-lg">Permissions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>✓ Add Patient</li>
-                  <li>✓ Update Patient</li>
-                  <li>✓ Delete Patient</li>
-                  <li>✓ View Patient</li>
-                  <li>✓ View Appointments</li>
-                </ul>
-              </CardContent>
-            </Card>
           </aside>
 
           {/* Main Content */}

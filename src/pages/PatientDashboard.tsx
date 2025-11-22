@@ -77,20 +77,6 @@ const PatientDashboard = () => {
                 </Button>
               </CardContent>
             </Card>
-
-            <Card className="mt-6">
-              <CardHeader>
-                <CardTitle className="text-lg">My Permissions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>✓ View Bills</li>
-                  <li>✓ View Doctors</li>
-                  <li>✓ View Appointments</li>
-                  <li>✓ Book Appointments</li>
-                </ul>
-              </CardContent>
-            </Card>
           </aside>
 
           {/* Main Content */}
